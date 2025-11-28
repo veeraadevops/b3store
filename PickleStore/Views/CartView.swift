@@ -177,12 +177,8 @@ struct CartItemRow: View {
                 HStack(spacing: 12) {
                     Button(action: {
                         if let current = currentItem {
-                            let newQuantity = current.quantity - 1
-                            if newQuantity > 0 {
-                                viewModel.updateQuantity(for: item.id, quantity: newQuantity)
-                            } else {
-                                viewModel.removeFromCart(item.id)
-                            }
+                            let newQuantity = max(1, current.quantity - 1)
+                            viewModel.updateQuantity(for: item.id, quantity: newQuantity)
                         }
                     }) {
                         Image(systemName: "minus.circle.fill")

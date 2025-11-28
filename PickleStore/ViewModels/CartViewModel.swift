@@ -59,11 +59,8 @@ class CartViewModel: ObservableObject {
         print("🔄 updateQuantity called: itemId=\(itemId), newQuantity=\(quantity)")
         print("📊 Current cart items count: \(cartItems.count)")
         
-        guard quantity > 0 else {
-            print("⚠️ Quantity is 0 or less, removing item")
-            removeFromCart(itemId)
-            return
-        }
+        // Clamp quantity to a minimum of 1 to avoid accidental removals
+        let clampedQuantity = max(1, quantity)
         
         if let index = cartItems.firstIndex(where: { $0.id == itemId }) {
             print("📍 Found item at index \(index), current quantity: \(cartItems[index].quantity)")
@@ -73,11 +70,11 @@ class CartViewModel: ObservableObject {
             let updatedItem = CartItem(
                 id: cartItems[index].id,
                 product: cartItems[index].product,
-                quantity: quantity
+                quantity: clampedQuantity
             )
             cartItems[index] = updatedItem
             
-            print("✅ Updated quantity to \(cartItems[index].quantity)")
+            print("✅ Updated quantity to \(cartItems[index].quantity) (requested: \(quantity))")
             print("📊 After update cart items count: \(cartItems.count)")
             saveCart()
         } else {
