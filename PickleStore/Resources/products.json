@@ -1,0 +1,114 @@
+[
+  {
+    "id": "00000000-0000-0000-0000-000000000001",
+    "name": "Mirchi Pickle",
+    "description": "Enjoy the bold, spicy taste of Andhra Pradesh with our Mirchi Pickle. Made using fresh green chillies, traditional Indian spices, and natural oils, this pickle adds a fiery twist to any meal. Perfect for spice lovers in the UK.",
+    "category": "Pickles",
+    "rating": 4.0,
+    "reviewCount": 1,
+    "imageName": "mirchi-pickle",
+    "tags": ["Spicy", "Authentic", "Made in India", "Andhra Pradesh"],
+    "variants": [
+      {
+        "id": "00000000-0000-0000-0000-000000000101",
+        "weight": 0.5,
+        "weightLabel": "500gm",
+        "price": 10.00,
+        "originalPrice": 15.00,
+        "sku": "MIRCHI-500"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000102",
+        "weight": 1.0,
+        "weightLabel": "1KG",
+        "price": 15.00,
+        "originalPrice": null,
+        "sku": "MIRCHI-1KG"
+      }
+    ]
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000002",
+    "name": "Mango Avakaya Pickle",
+    "description": "Traditional mango pickle made with raw mangoes, aromatic spices, and mustard oil. A classic accompaniment to Indian meals.",
+    "category": "Pickles",
+    "rating": 4.7,
+    "reviewCount": 12,
+    "imageName": "mangoA-pickle",
+    "tags": ["Tangy", "Traditional", "Popular"],
+    "variants": [
+      {
+        "id": "00000000-0000-0000-0000-000000000201",
+        "weight": 0.5,
+        "weightLabel": "500gm",
+        "price": 8.99,
+        "originalPrice": null,
+        "sku": "MANGOA-500"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000202",
+        "weight": 1.0,
+        "weightLabel": "1KG",
+        "price": 14.99,
+        "originalPrice": 18.00,
+        "sku": "MANGOA-1KG"
+      }
+    ]
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000003",
+    "name": "Gongura Pickle",
+    "description": "Authentic Andhra-style Gongura pickle with tangy sorrel leaves, spices, and oil. A must-try for pickle enthusiasts!",
+    "category": "Pickles",
+    "rating": 4.8,
+    "reviewCount": 8,
+    "imageName": "gongura-pickle",
+    "tags": ["Tangy", "Andhra Special", "Traditional"],
+    "variants": [
+      {
+        "id": "00000000-0000-0000-0000-000000000301",
+        "weight": 0.5,
+        "weightLabel": "500gm",
+        "price": 9.99,
+        "originalPrice": null,
+        "sku": "GONGURA-500"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000303",
+        "weight": 1.0,
+        "weightLabel": "1KG",
+        "price": 14.99,
+        "originalPrice": null,
+        "sku": "GONGURA-500"
+      }      
+    ]
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000004",
+    "name": "Mango Magaya Pickle",
+    "description": "Traditional mango pickle made with raw mangoes, aromatic spices, and mustard oil. A classic accompaniment to Indian meals.",
+    "category": "Pickles",
+    "rating": 4.7,
+    "reviewCount": 12,
+    "imageName": "mangoM-pickle",
+    "tags": ["Tangy", "Traditional", "Popular"],
+    "variants": [
+      {
+        "id": "00000000-0000-0000-0000-000000000401",
+        "weight": 0.5,
+        "weightLabel": "500gm",
+        "price": 8.99,
+        "originalPrice": null,
+        "sku": "MANGOM-500"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000402",
+        "weight": 1.0,
+        "weightLabel": "1KG",
+        "price": 14.99,
+        "originalPrice": 18.00,
+        "sku": "MANGOM-1KG"
+      }
+    ]
+  }  
+]

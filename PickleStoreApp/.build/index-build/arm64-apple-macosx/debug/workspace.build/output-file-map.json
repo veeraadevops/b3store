@@ -1,0 +1,33 @@
+{
+  "": {
+    "swift-dependencies": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/master.swiftdeps"
+  },
+  "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/Sources/PickleStoreApp/Order.swift": {
+    "dependencies": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/Order.d",
+    "object": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/Order.swift.o",
+    "swiftmodule": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/Order~partial.swiftmodule",
+    "swift-dependencies": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/Order.swiftdeps",
+    "diagnostics": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/Order.dia"
+  },
+  "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/Sources/PickleStoreApp/Product.swift": {
+    "dependencies": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/Product.d",
+    "object": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/Product.swift.o",
+    "swiftmodule": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/Product~partial.swiftmodule",
+    "swift-dependencies": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/Product.swiftdeps",
+    "diagnostics": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/Product.dia"
+  },
+  "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/Sources/PickleStoreApp/User.swift": {
+    "dependencies": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/User.d",
+    "object": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/User.swift.o",
+    "swiftmodule": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/User~partial.swiftmodule",
+    "swift-dependencies": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/User.swiftdeps",
+    "diagnostics": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/User.dia"
+  },
+  "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/Sources/main.swift": {
+    "dependencies": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/main.d",
+    "object": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/main.swift.o",
+    "swiftmodule": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/main.swiftdeps",
+    "diagnostics": "/Users/vakula/repos/PickleStoreApp/PickleStoreApp/.build/index-build/arm64-apple-macosx/debug/workspace.build/main.dia"
+  }
+}
